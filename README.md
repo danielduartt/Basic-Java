@@ -43,5 +43,5 @@ Este repositório contém os seguintes tópicos:
 
 1. **Clone o Repositório**
    ```sh
-   git clone https://github.com/seu-usuario/fundamentos-basicos-java.git
-   cd fundamentos-basicos-java
+   git clone https://github.com/seu-usuario/Fundamentos-Java.git
+   cd Fundamentos-Java.git
