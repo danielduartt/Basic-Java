@@ -2,7 +2,7 @@
 As estruturas condicionais são essenciais em qualquer linguagem de programação, permitindo que o fluxo do programa seja alterado com base em certas condições. Elas permitem que o código execute diferentes blocos de instruções dependendo se uma condição é verdadeira ou falsa.
 
 Tipos de Estruturas Condicionais
-1. if
+## 1. if
 A estrutura if é usada para executar um bloco de código se uma condição especificada for verdadeira.
 
 Sintaxe
@@ -19,7 +19,7 @@ if (idade >= 18) {
     System.out.println("Você é maior de idade.");
 }
 ```
-2. if-else
+## 2. if-else
 A estrutura if-else permite a execução de um bloco de código quando a condição é verdadeira e outro bloco quando a condição é falsa.
 
 Sintaxe
@@ -41,7 +41,7 @@ if (idade >= 18) {
     System.out.println("Você é menor de idade.");
 }
 ```
-3. else if
+## 3. else if
 A estrutura else if é usada para testar múltiplas condições. Se a condição inicial em um if for falsa, o programa pode testar outra condição com else if.
 
 Sintaxe
@@ -70,7 +70,7 @@ if (nota >= 90) {
     System.out.println("Nota F");
 }
 ```
-4. switch
+## 4. switch
 A estrutura switch é uma alternativa para else if quando se deseja comparar uma variável com diversos valores específicos. É particularmente útil para simplificar código que compara a mesma expressão com diferentes constantes.
 
 Sintaxe
@@ -108,7 +108,7 @@ switch (diaDaSemana) {
         break;
 }
 ``` 
-5. Operador Ternário
+## 5. Operador Ternário
 O operador ternário é uma forma concisa de expressar uma simples condição if-else. Ele é útil para atribuições de valor com base em uma condição.
 
 Sintaxe
