@@ -4,34 +4,34 @@
     <h2>Bloco try-catch</h2>
     <p>O bloco <code>try</code> é usado para envolver o código que pode lançar uma exceção. O bloco <code>catch</code> é usado para capturar e tratar a exceção lançada pelo bloco <code>try</code>. Aqui está um exemplo básico:</p>
 
-    <pre><code>
-try {
-    int resultado = 10 / 0; // Isso lançará uma ArithmeticException
-} catch (ArithmeticException e) {
-    System.out.println("Erro: Divisão por zero!");
-}
-    </code></pre>
+    <code>
+    try {
+        int resultado = 10 / 0; // Isso lançará uma ArithmeticException
+    } catch (ArithmeticException e) {
+        System.out.println("Erro: Divisão por zero!");
+    }
+    </code>
 
     <h2>Bloco finally</h2>
     <p>O bloco <code>finally</code> é opcional e é sempre executado, independentemente de uma exceção ser lançada ou não. É útil para fechar recursos, como arquivos ou conexões de banco de dados:</p>
 
     <pre><code>
-try {
-    int resultado = 10 / 2;
-} catch (ArithmeticException e) {
-    System.out.println("Erro: Divisão por zero!");
-} finally {
-    System.out.println("Este bloco sempre é executado.");
-}
+    try {
+        int resultado = 10 / 2;
+    } catch (ArithmeticException e) {
+        System.out.println("Erro: Divisão por zero!");
+    } finally {
+        System.out.println("Este bloco sempre é executado.");
+    }
     </code></pre>
 
     <h2>Palavra-chave throws</h2>
     <p>A palavra-chave <code>throws</code> é usada para indicar que um método pode lançar uma exceção. Isso é usado para delegar a responsabilidade de tratar a exceção para o método que chama o método atual:</p>
 
     <pre><code>
-public void metodoQuePodeLancarExcecao() throws IOException {
-    throw new IOException("Erro ao ler arquivo.");
-}
+    public void metodoQuePodeLancarExcecao() throws IOException {
+        throw new IOException("Erro ao ler arquivo.");
+    }
     </code></pre>
 
     <h2>Exceções verificadas e não verificadas</h2>
