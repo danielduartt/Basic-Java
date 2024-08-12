@@ -50,7 +50,8 @@ classDiagram
     iPhone --> NavegadorInternet
 ```
 ### Diagrama Criado para o exercício
-![Diagrama](img/Diagrama UML_ Iphone.jpeg)
+
+![Diagrama](img/DiagramaUMLIphone.jpeg)
 
 ### Instruções
 1. Assista ao vídeo do lançamento do iPhone para entender as funcionalidades principais.
