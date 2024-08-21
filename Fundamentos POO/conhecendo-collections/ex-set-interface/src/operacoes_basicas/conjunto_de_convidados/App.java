@@ -1,4 +1,4 @@
-package conjunto_de_convidados;
+package operacoes_basicas.conjunto_de_convidados;
 
 public class App {
     public static void main(String[] args) {
